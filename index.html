@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+       .container{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;  
+        width: 100%;  
+    }
+    
+    #btn1,#btn2,#btn3{
+        margin: 1.2rem;
+        height: 100px;
+        width: 100px;
+    }
+    .gradient{
+        height: 200px;
+        width: 300px;
+        border: 2px solid black;
+    }
+    </style>
+</head>
+<body>
+    <div class="container" id="body">
+        <button id="previous">Previous Color</button>
+        <button id="btn1"  > click to change</button>
+        <button id="btn2" > click to change</button>
+        <button id="btn3">click to change</button>
+        <button id="nextbtn">Next Color</button>
+
+        <div class="gradient" id="gradient">
+    </div>
+
+    
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
